@@ -1,12 +1,8 @@
-name: Earth-app Push workflow
+name: Apply terraform
 
 on:
   push:
-    branches: main
-    paths: 
-    - earth-app/
-    - .github/workflows/push.yaml
-
+    branches: master
 
 jobs:
   build:
