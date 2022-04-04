@@ -22,3 +22,5 @@ jobs:
           terraform_version: 1.1.7
       - run: terraform init -input=false
       - run: terraform apply -input=false -auto-approve
+        env: 
+          GITHUB_TOKEN: '${{ secrets.TOKEN }}'
