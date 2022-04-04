@@ -1,4 +1,4 @@
-resource "github_repository" "3rd_party_infra" {
+resource "github_repository" "third_party_infra" {
   name        = "3rd-party-infra"
   description = "G3rd-party-infra as code repo"
 
